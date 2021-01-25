@@ -18,7 +18,7 @@ pipeline {
 			script {
 			    LAST_STARTED = env.STAGE_NAME
 			   	sh "mvn test"
-				publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'hello-world/target/site/munit/coverage', reportFiles: 'summary.html', reportName: 'Munit HTML Report', reportTitles: ''])
+				publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'target/site/munit/coverage', reportFiles: 'summary.html', reportName: 'Munit HTML Report', reportTitles: ''])
 				}	
 			}		
           
