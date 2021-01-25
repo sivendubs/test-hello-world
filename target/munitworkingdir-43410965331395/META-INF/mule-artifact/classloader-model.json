@@ -1,0 +1,52 @@
+{
+  "version": "1.2.0",
+  "artifactCoordinates": {
+    "groupId": "com.mycompany",
+    "artifactId": "hello-world",
+    "version": "1.0.0-SNAPSHOT",
+    "type": "jar",
+    "classifier": "mule-application"
+  },
+  "dependencies": [
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-http-connector",
+        "version": "1.5.23",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "file:/Users/vishnuprasad/.m2/repository/org/mule/connectors/mule-http-connector/1.5.23/mule-http-connector-1.5.23-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "org.mule.connectors",
+        "artifactId": "mule-sockets-connector",
+        "version": "1.2.0",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "file:/Users/vishnuprasad/.m2/repository/org/mule/connectors/mule-sockets-connector/1.2.0/mule-sockets-connector-1.2.0-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.mulesoft.munit",
+        "artifactId": "munit-runner",
+        "version": "2.3.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "file:/Users/vishnuprasad/.m2/repository/com/mulesoft/munit/munit-runner/2.3.1/munit-runner-2.3.1-mule-plugin.jar"
+    },
+    {
+      "artifactCoordinates": {
+        "groupId": "com.mulesoft.munit",
+        "artifactId": "munit-tools",
+        "version": "2.3.1",
+        "type": "jar",
+        "classifier": "mule-plugin"
+      },
+      "uri": "file:/Users/vishnuprasad/.m2/repository/com/mulesoft/munit/munit-tools/2.3.1/munit-tools-2.3.1-mule-plugin.jar"
+    }
+  ]
+}

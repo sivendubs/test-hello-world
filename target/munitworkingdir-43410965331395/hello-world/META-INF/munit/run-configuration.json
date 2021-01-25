@@ -1,0 +1,68 @@
+{
+  "runToken": "a3815ad9-f9db-436a-b1ef-031ce8716dbf",
+  "projectName": "hello-world",
+  "domainLocation": "",
+  "tags": [],
+  "testNames": [],
+  "suitePaths": [
+    "hello-world-suite.xml"
+  ],
+  "allSuitePaths": [
+    "hello-world-suite.xml"
+  ],
+  "skipAfterFailure": false,
+  "notifierConfigurations": [
+    {
+      "clazz": "org.mule.munit.remote.notifiers.ConsoleNotifier",
+      "parameters": [
+        {
+          "name": "runToken",
+          "type": "java.lang.String",
+          "value": "a3815ad9-f9db-436a-b1ef-031ce8716dbf"
+        }
+      ]
+    }
+  ],
+  "coverageConfiguration": {
+    "runCoverage": false,
+    "randomizeCoveragePort": true,
+    "suitePaths": [
+      "hello-world-suite.xml"
+    ],
+    "ignoredFiles": [],
+    "ignoredFlowNames": []
+  },
+  "containerConfiguration": {
+    "type": "EMBEDDED",
+    "value": {
+      "mavenConfiguration": {
+        "settingsXmlFilePath": "/Users/vishnuprasad/.m2/settings.xml",
+        "globalSettingsXmlFilePath": "/usr/local/Cellar/maven/3.6.3_1/libexec/conf/settings.xml",
+        "mavenRepositoryDirectoryPath": "/Users/vishnuprasad/.m2/repository",
+        "offlineMode": false,
+        "forcePolicyUpdate": true,
+        "ignoreArtifactDescriptorRepositories": false,
+        "remoteRepositories": [
+          {
+            "id": "mule-public",
+            "url": "https://repository.mulesoft.org/nexus/content/repositories/public"
+          },
+          {
+            "id": "mulesoft-releases",
+            "url": "https://repository.mulesoft.org/releases/"
+          },
+          {
+            "id": "central",
+            "url": "https://repo.maven.apache.org/maven2"
+          }
+        ]
+      },
+      "serverPluginConfigurations": [],
+      "runtimeId": "4.3.0",
+      "product": "MULE",
+      "munitWorkingDirectoryPath": "/Users/vishnuprasad/AnypointStudio/workspace/hello-world/target/munitworkingdir-43410965331395",
+      "log4JConfigurationFilePath": "/Users/vishnuprasad/AnypointStudio/workspace/hello-world/target/test-classes/log4j2-test.xml",
+      "type": "EMBEDDED"
+    }
+  }
+}

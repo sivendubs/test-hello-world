@@ -1,0 +1,31 @@
+{
+  "configs": [
+    "hello-world.xml",
+    "hello-world-suite.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:hello-world:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedResources": [
+        "log4j2.xml",
+        "hello-world.yaml",
+        "hello-world.xml",
+        "log4j2-test.xml",
+        "helloworldFlowtest/assert_expression_payload.dwl",
+        "helloworldFlowtest/set-event_attributes.dwl",
+        "helloworldFlowtest/set-event_payload.dwl"
+      ],
+      "includeTestDependencies": "true",
+      "exportedPackages": []
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
