@@ -28,7 +28,7 @@ pipeline {
         	steps {
 			script {
 			    LAST_STARTED = env.STAGE_NAME
-				sh 'mvn package deploy -DmuleDeploy -DskipTests -Danypoint.username=sivendu07 -Danypoint.password=Sivendu@903 -DapplicationName=hello-world-njclabs -Dcloudhub.region=us-east-2'
+				sh 'mvn package deploy -DmuleDeploy -DskipTests -Danypoint.username=sivendu07 -Danypoint.password=Sivendu@903 -DapplicationName=hello-world-njclabs '
 			    }
        }
    }
